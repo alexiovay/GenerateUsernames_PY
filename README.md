@@ -2,7 +2,7 @@
 A basic script to generate usernames in Python.
 
 
-import random
+´import random
 
 def generate_username():
     common_names = [
@@ -41,4 +41,4 @@ def generate_username():
     return merged.replace(" ", "_")
 
 unique_username = generate_username()
-print(unique_username)
+print(unique_username)`
